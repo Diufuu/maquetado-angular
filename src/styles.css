@@ -1,1 +1,352 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    width: 100%;
+    height: 100%;
+}
+.own-nav{
+    position: relative;
+}
+#navbarColor02 a:hover{
+    color: #C50051;
+}
+.line-1{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.nav-reg-a{
+    color: lightgrey;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.nav-reg-b{
+    color: lightgrey;
+}
+.nav-logo{
+    height:55px;
+}
+.navbar-collapse{
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.carousel-inner .carousel-item img {
+    height: 650px;
+    z-index: 10;
+}
+#background{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+    background: rgb(212,210,247);
+    background: linear-gradient(180deg, rgba(212,210,247,1) 0%, rgba(156,149,255,1) 100%);
+    z-index: 6;
+    padding-bottom: 150px;
+}
+#prof-photo{
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    text-align: center;
+    top: 580px;
+}
+#prof-photo img{
+    width: 15%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 41px -7px rgba(0,0,0,0.44);
+}
+#prof-title{
+    padding-top: 170px;
+    text-align: center;
+}
+#prof-title h1{
+    color: #180029;
+    margin-bottom: 50px;
+}
+#prof-sub{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+#prof-sub h2{
+    text-align: center;
+    color: #485785;
+}
+.card{
+    padding: 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 50px;
+    display: inline-block;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+#scnd-card{
+    text-align: right;
+}
+.card-img-1{
+    height: 300px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    margin-top: 26px;
+    width: 450px;
+}
+#cards-image{
+    text-align: center;
+}
+.card-img-3{
+    width: 450px;
+    height: 300px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    margin-top: 40px;
+}
+.card-img-2{
+    width: 450px;
+    height: 300px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+#card-back{
+    padding: 50px;
+}
+.full-title{
+    margin-left: 90px;
+    color: #343f61;
+}
+.bg-custom-1{
+    background-color: #dfe0f0!important;
+}
+.card li{
+    background-color: #D8D9E8;
+}
+#scnd-background{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+    background: rgb(226,210,70);
+    background: linear-gradient(180deg, rgba(226,210,70,1) 0%, rgba(245,243,188,1) 100%);
+    z-index: 6;
+    top: -50px;
+}
+.skill-title{
+    padding-top: 90px;
+}
+.back-bar {
+    margin-left: 70px;
+    width: 100%;
+    background-color: white;
+    box-shadow: inset 0px 0px 25px -11px rgba(0,0,0,0.54);
+    border-radius: 15px;
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    padding-right: 15px;
+}
+.esp {
+    width: 100%; 
+    background-color: #f7aa3e;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    border-radius: 15px;
+}
+.eng {
+    width: 80%; 
+    background-color: #3e8bf7;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    border-radius: 15px;
+}
+.ita {
+    width: 30%; 
+    background-color: #348c44;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    border-radius: 15px;
+}
+#skill h5{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+.cert-lang{
+    width: 500px;
+    height: 400px;
+    margin-left: 35%;
+}
+#cert-title{
+    width: 500px;
+    margin-left: 35%;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #75b7bf;
+    text-align: center;
+}
+.chart-container-1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+.chart-container-1 .chart-background-1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #F16529;
+    position: absolute;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+#prog-section{
+    text-align: right;
+}
+.chart-container-1 .chart-foreground-1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 0 20%);
+    background-color: #edc8b8;
+}
+.chart-container-1 h4{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    color: #edc8b8;
+}
+.chart-container-2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+.chart-container-2 .chart-background-2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #376F9E;
+    position: absolute;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.chart-container-2 .chart-foreground-2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 25%, 0 25%);
+    background-color: #b9d4ea;
+}
+.chart-container-2 h4{
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    color: #b9d4ea;
+}
+.chart-container-3 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+.chart-container-3 .chart-background-3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #DAB92D;
+    position: absolute;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.chart-container-3 .chart-foreground-3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 40%, 0 40%);
+    background-color: #f2e9c4;
+}
+.chart-container-3 h4{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: #f2e9c4;
+}
+.chart-container-4 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+.chart-container-4 .chart-background-4 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #DAB92D;
+    position: absolute;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.chart-container-4 .chart-foreground-4 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    background-color: #f2e9c4;
+}
+.chart-container-4 h4{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: #f2e9c4;
+}
+#prog-skill{
+    margin-top: 100px;
+    margin-right: 80px;
+}
+.prog-title{
+    margin-right: 90px;
+    margin-top: 190px;
+}
+.prog-info{
+    text-align: justify;
+    padding-left: 80px;
+    padding-top: 290px;
+    padding-right: 40px;
+    font-size: 20px;
+}
+.proj-title{
+    text-align: center;
+    margin-top: 190px;
+    margin-bottom: 50px;
+}
+#card-background{
+    background-color: #f9dc68;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.mini-logo{
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    margin-left: 15px;
+    margin-top: 4px;
+    position: absolute;
+    border-radius: 50%;
+}
+#title-low{
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 40%;
+    margin: 15px;
+    text-align: center;
+}
